@@ -17,6 +17,7 @@ jobs:
       uses: sunnysid3up/python-linter@master
       with:
         source: .
+        strict: medium
         mypy-options: ""
         pylint-options: ""
         isort-options: ""
